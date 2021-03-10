@@ -1,0 +1,966 @@
+
+
+
+
+//colour variables
+$primary-colour:  rgb(239,67,95);
+$secondary-colour: rgb(31, 31, 31);
+//
+$headings-colour:  rgb(43, 45, 66);
+$paragrpah-colour: rgb(141, 153, 174);
+//
+$dark-bg-headings-colour: rgb(237, 242, 244);
+$alternative-visibility: rgb(137, 176, 174);
+
+$wisteria: rgb(188, 150, 230);
+
+//font-variables
+
+$headings-fontstack: 'Playfair Display', serif;
+$paragraph-fontstack: 'Montserrat', sans-serif;
+
+//document-default styles-start
+
+body {
+    margin-right: 2rem;
+    margin-left: 2rem;
+
+    h1 {
+        font-family: $headings-fontstack;
+        font-size: 4rem;
+        color:$headings-colour;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-family: $paragraph-fontstack;
+        font-size: 1.5rem;
+        color: $paragrpah-colour;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    hr {
+        color: $headings-colour;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        padding-top: 0.4rem;
+    }
+}
+//document default styles-end
+
+//navbar-styles-start
+
+#navbar {
+    background-color: white;
+    padding-top: 1rem;
+
+    #navbar-box {
+        background-color: white;
+    }
+    
+
+    img {
+        max-width: 10rem;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+   
+   
+   .navbar-custom {
+       color: $headings-colour;
+       font-family: $headings-fontstack;
+       font-size: 1.5rem;
+   }
+
+   .navbar-custom:hover {
+    color: $primary-colour;
+    font-weight: bold;
+    animation-name: sidebar;
+    animation-duration: 0.25s;
+    border-left: 8px solid $primary-colour;
+   }
+
+   .sticky-top {
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+   }
+
+   #navbar-button {
+       color: antiquewhite;
+       text-align: center;
+
+       .btn {
+           background-color: $primary-colour;
+           font-family: $paragraph-fontstack;
+            margin-left: 1em;
+            margin-top: 0.5em;
+            border: none;
+       }
+       .btn:hover {
+        background-color: $wisteria;
+        outline-color: $wisteria;
+        font-weight: bold;
+       }
+   }
+  //dropdown SCSS
+   .dropdownMenuMarketing {
+       position:absolute;
+       display: none;
+   }
+}
+
+
+//navbar-styles-end
+
+//hero-styles-start
+
+#hero {
+    padding-top: 5rem;
+    #hero-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       h1 {
+            text-align: left;
+         }
+        p {
+            text-align: left;
+        }
+    }
+
+    #hero-img {
+        max-width: fit-content;
+    }
+
+    .attention-primary-colour {
+        color: $primary-colour;
+    }
+}
+
+
+//hero-styles-end
+
+//benefits-styles-start
+#benefits {
+
+    h1 {
+        text-align: center;
+    }
+        
+    
+
+    .row {
+        margin-top: 4rem;
+
+        
+    }
+
+    .col {
+        justify-content: center;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+   
+
+    img {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: auto;
+        max-height: 5rem;
+        max-width: 9rem;
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        display: flex;
+        text-align: center;
+    }
+}
+//benefits-styles-end
+
+//call-to-action-section-start
+
+#call-to-action {
+    height: 30rem;
+    background-image: url(../images/Images/pexels-ketut-subiyanto-4473904.jpg);
+    justify-content: center;
+    .col {
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .dark-bg-h2 {
+        font-size: 3rem;
+        margin-top: 1.3rem;
+        margin-bottom: 1.3rem;
+        color: $headings-colour;
+       
+
+    }
+
+    .dark-bg-p {
+        color: $dark-bg-headings-colour;
+        font-weight: 600;
+    }
+
+    .btn {
+        background-color: $primary-colour;
+        outline-color: $paragrpah-colour;
+        font-family: $paragraph-fontstack;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 1.3rem;
+        margin-bottom: 1.3rem;
+        border: none;
+        
+    }
+
+    .btn:hover {
+        background-color: $wisteria;
+        font-weight: bold;
+    }
+
+}
+
+//call-to-action-end
+
+//testimonials-start
+
+#testimonial{
+
+    padding-top: 3rem;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h2 {
+        color: $headings-colour;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    p {
+        color: $paragrpah-colour;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 2rem;
+    }
+
+    q {
+        font-size: 1.5rem;
+        background-color: $paragrpah-colour;
+
+    }
+
+
+}
+
+//testimonial end
+
+
+//footer-start
+
+footer {
+    #round-logo {
+        max-width: 7rem;
+    }
+
+    .image-cont {
+        display: flex;
+        justify-content: center;
+    }
+
+    ul {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+    }
+
+    li {
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5em;
+    } a {
+        color: $headings-colour;
+        text-decoration: none;
+        }
+
+        a:hover {
+            color: $primary-colour;
+        }
+
+    #social-media {
+        display: flex;
+        justify-content: center;
+    }
+
+    i {
+        font-size: 2rem;
+        margin-right: auto;
+        margin-left: auto;
+        color: $primary-colour;
+    }
+
+    i:hover {
+        font-size: 2.2rem;
+        color: $wisteria;
+    }
+}
+
+#Newsletter {
+    h3 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+   .col-form-label {
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        font-size: 1rem;
+
+    }
+
+    .form-check-label {
+        font-family: $paragrpah-colour;
+        font-size: 0.8rem;
+
+    }
+
+    .btn {
+        background-color: $primary-colour;
+        border: none;
+    }
+}
+
+
+//marketing page starts here.
+
+
+//hero-marketing-starts
+
+#hero-marketing {
+    height: 50rem;
+    max-width: auto;
+    //Photo by Jean van der Meulen from Pexels
+   
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+        url(../images/Images/pexels-jean-van-der-meulen-3736245.jpg);
+    background-size:100rem;
+
+    #position-div {
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+
+    }
+    h2 {
+        font-size: 5rem;
+        text-align: center;
+        align-self: center;
+        color: $dark-bg-headings-colour;
+        font-family: $headings-fontstack;
+    }
+
+    p {
+        font-size: 2rem;
+        color: $dark-bg-headings-colour;
+        text-align: center;
+        align-self: center;
+        font-weight: bold;
+        font-family: $paragraph-fontstack;
+    }
+}      
+
+//hero-marking-ends
+
+//Photography-starts
+
+#photography-and-videography {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    h2 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        font-size: 4rem;
+    }
+
+    img {
+        max-width: 40rem;
+    }
+
+    h3 {
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+
+    }
+
+    p {
+        font-family: $paragraph-fontstack;
+        color: $paragrpah-colour;
+        text-align: center;
+    }
+}
+
+// Photgraphy y ends
+
+//virtual realty-starts
+#virtual-reality { 
+    padding-top: 2rem;
+    padding-bottom: 2 rem;
+    h2 {
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        font-size: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    p {
+        font-family:$paragraph-fontstack;
+        color: $paragrpah-colour;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    iframe {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+}
+
+
+// virtual realty-ends
+
+//graphix-design-starts
+#graphic-design {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    h2 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        font-size: 4rem;
+    }
+
+    img {
+        max-width: 40rem;
+    }
+
+    h3 {
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+
+    }
+
+    p {
+        font-family: $paragraph-fontstack;
+        color: $paragrpah-colour;
+        text-align: center;
+    }
+}
+
+//property-portals starts
+
+#property-portals {
+    h2 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        font-size: 4rem;
+    }
+
+    p {
+        font-family: $paragraph-fontstack;
+        color: $paragrpah-colour;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        font-size: 2rem;
+        text-decoration: underline;
+    
+    }
+
+    img {
+        max-width: 15rem;
+        max-height: 10rem;
+    }
+    .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+   
+
+   
+}
+
+//Social media
+#social-media {
+    h2 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        font-size: 4rem;
+    }
+
+    p {
+        font-family: $paragraph-fontstack;
+        color: $paragrpah-colour;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    h3 {
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        font-size: 2rem;
+    
+    }
+
+    img {
+        max-width: 8rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+
+}
+
+
+//social media ends
+
+
+
+//Socail media
+#social-media {
+    h2 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        font-size: 4rem;
+    }
+
+    p {
+        font-family: $paragraph-fontstack;
+        color: $paragrpah-colour;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    h3 {
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        font-size: 2rem;
+    
+    }
+
+    img {
+        max-width: 8rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+
+}
+
+// Targetted data driven ads Fb & google
+
+#targetted-ads {
+    h2 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        font-size: 4rem;
+    }
+
+    p {
+        font-family: $paragraph-fontstack;
+        color: $paragrpah-colour;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    h3 {
+        font-family: $headings-fontstack;
+        color: $headings-colour;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        font-size: 2rem;
+    
+    }
+
+    img {
+        max-width: 8rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+}
+
+//end of targetted ads
+
+//end of Marketing-page
+
+//start-of-splits
+
+//hero-splits
+
+#hero-splits{
+    height: 50rem;
+    max-width: auto;
+    //Photo by Jean van der Meulen from Pexels
+   
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+        url(../images/Images/pexels-cottonbro-4114731.jpg);
+    background-size:100rem;
+
+    #position-div {
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+
+    }
+    h2 {
+        font-size: 5rem;
+        text-align: center;
+        align-self: center;
+        color: $dark-bg-headings-colour;
+        font-family: $headings-fontstack;
+    }
+
+    p {
+        font-size: 2rem;
+        color: $dark-bg-headings-colour;
+        text-align: center;
+        align-self: center;
+        font-weight: bold;
+        font-family: $paragraph-fontstack;
+    }
+}      
+//end-of-hero-splits
+
+//start of splits table
+
+#splits-table {
+    padding-top:3rem;
+    margin-bottom: 7rem;
+
+    th:hover {
+        color: $primary-colour;
+        background-color: aliceblue;
+        cursor: pointer;
+    }
+    h2 {
+        font-size: 5rem;
+        text-align: center;
+        align-self: center;
+        color: $headings-colour;
+        font-family: $headings-fontstack;
+        margin-bottom: 3rem;
+    }
+
+    p {
+        font-size: 2rem;
+        color: $paragrpah-colour;
+        text-align: center;
+        align-self: center;
+        font-weight: bold;
+        font-family: $paragraph-fontstack;
+        margin-bottom: 3rem;
+    }
+}
+
+
+// animation of comm splits 
+
+
+#split-animation {
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+
+#flyingBox{
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    background-color: $primary-colour;
+}
+
+#cch {
+    width: 10rem;
+    height: 10rem;
+    background-color: $primary-colour;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    #wackyCchAnimation:hover{
+        cursor: pointer;
+        font-size: 4rem;
+        background-color: white;
+        color: $primary-colour;
+    }
+
+  
+
+    h4 {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    span {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+}
+
+#agent {
+    width: 10rem;
+    height: 10rem;
+    background-color: $primary-colour;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    h4 {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    span {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+//start of the Saved for later page
+
+//hero-saved
+
+#hero-saved{
+    height: 50rem;
+    max-width: auto;
+    //Photo by Jean van der Meulen from Pexels
+   
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+        url(../images/Images/pexels-ketut-subiyanto-4473904.jpg);
+    background-size:100rem;
+
+    #position-div {
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+
+    }
+    h2 {
+        font-size: 5rem;
+        text-align: center;
+        align-self: center;
+        color: $dark-bg-headings-colour;
+        font-family: $headings-fontstack;
+    }
+
+    p {
+        font-size: 2rem;
+        color: $dark-bg-headings-colour;
+        text-align: center;
+        align-self: center;
+        font-weight: bold;
+        font-family: $paragraph-fontstack;
+    }
+}      
+//end-of-hero-saved
+
+//saved-benefits-section 
+
+#savedItems {
+
+
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+
+    }
+
+    h1 {
+        text-align: center;
+    }
+        
+    
+
+    .row {
+        margin-top: 4rem;
+
+        
+    }
+
+    .col {
+        justify-content: center;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+   
+
+    img {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: auto;
+        max-height: 5rem;
+        max-width: 9rem;
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        display: flex;
+        text-align: center;
+    }
+
+   
+
+
+}
+
+
+#marketing-cont {
+
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+
+//joining-page-start
+
+#join-form {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    .container{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+

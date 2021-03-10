@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--STYLESHEETS START-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="..\css\main.css" rel="stylesheet">
+    <!--STYLESHEETS END-->
+
+    <!--FONTS-START-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <!--FONTS-END-->
+
+    <!--JS-START-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <!--JQUERY IMPORT-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--JS MAIN-->
+    <script src="../javascript/main.js"></script>
+    <!--JS PAGE SPECIFIC COMMENTS-->
+    <script src="../javascript/comments.js"></script>
+    <!--JS-END-->
+
+    
+    <title> CCH Agent Recruitment</title>
+
+</head>
+
+
+<body>
+
+<!--NAVBAR-START-->
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="https://www.cch.co.za/">
+                <img src="../images/Logos/CCH logo black.png" alt="cch logo - sourced from cch.co.za" >
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active navbar-custom" aria-current="page" href=".\index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active navbar-custom" href=".\marketing.html">Marketing</a>
+                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active navbar-custom" href=".\oursplits.html">Our Splits</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navbar-custom" href="./savedItems.html">Your Saved Items</a>
+              </li>
+
+                <li> 
+                    <div class="nav-item" id="navbar-button"> 
+                        <button id="joinBtn" class="btn btn-danger" type="submit">Join Us</button>
+                    </div>
+                </li>
+            </ul>
+          </div>   
+        </div>
+      </nav>
+
+<!--NAVBAR-END-->
+
+<!--HERO-SECTION-START-->
+<section id="hero-splits"> 
+    <div id="position-div" class="container-fluid">
+      <!--Photo by cottonbro from Pexels-->
+        <div id="background-div" class="container-fluid">
+            <h2>Commission Splits</h2>
+            <p>Less effort, more money in your pocket.</p> 
+        </div>
+    </div>
+</section>
+
+
+<!--HERO-SECTION-END-->
+
+<!--SPLITS-TABLE START-->
+<section id="splits-table">
+  <div class="container-fluid">
+    <h2>Commission Splits</h2>
+    <p>We have the most competitive commission splits with our agents, because we truly believe that we are here, ultimately to facilitate you in running your own business.</p>
+    <table class="table table-dark table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col" id="55">55/45</th>
+          <th scope="col" id="70">70/30</th>
+          <th scope="col" id="80">80/20</th>
+          <th scope="col" id="90">90/10</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Agent 55%</td>
+          <td>Agent 70%</td>
+          <td>Agent 80%</td>
+          <td>Agent 90%</td>
+        </tr>
+        <tr>
+          <td>CCH 44%</td>
+          <td>CCH 29%</td>
+          <td>CCH 19%</td>
+          <td>CCH 9%</td>
+        </tr>
+        <tr>
+          <td>Admin 1%</td>
+          <td>Admin 1%</td>
+          <td>Admin 1%</td>
+          <td>Admin 1%</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <button id="animate">animate</button>
+  </div>
+  <div  id="flyingBox"></div>
+  <div id="split-animation"class="container-fluid">
+    <div class="row mx-auto">
+      <div class="col col-sm-6 mx-auto">
+        
+        <div id="cch">
+          <h4 id="wackyCchAnimation">CCH</h4>
+          <span>50%</span>
+        </div>
+      </div>
+      <div class="col col-sm-6 mx-auto">
+        <div id="agent">
+          <h4>Agent</h4>
+          <span>50%</span>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!--SPLITS TABLE-END-->
+
+<!--COMMENTS SECTION START-->
+<section id="commentsSection">
+  <div class="container-fluid">
+      <h2>Please leave any questions regarding our comm splits here:</h2>
+    <div id="commentsCont"class="container">
+      <form>
+        <div class="mb-3">
+          <label for="nameInput" class="form-label">Name:</label>
+          <input type="text" class="form-control" id="nameInput" placeholder="John Doe">
+        </div>
+        <div class="mb-3">
+          <label for="commentInput" class="form-label">Please leave your comments here:</label>
+          <textarea class="form-control" id="commentInput" rows="3"></textarea>
+        </div>
+        <button id="submitBtn" type="submit" class="btn btn-primary mb-3">Submit</button>
+      </form>
+
+      <h3>Comments:</h3>
+      
+    </div>
+  </div>
+</section>
+
+<!--COMMENTS SECTION END-->
+
+<!--FOOTER-START-->
+
+<footer>
+  <div class="container-fluid">
+      <div id="top-row" class="row">
+          <div class="col col-sm-2 mx-auto image-cont">
+            <img id= "round-logo" src="../images/Logos/CCH logo round.png" alt="image source from cch.co.za">
+          </div>
+          <div class="col col-sm-5 mx-auto">
+    
+            <ul>
+              <li> <a href="index.html">Home </a> </li>
+              <li> <a href="marketing.html"> Marketing </a> </li>
+              <li> <a href="oursplits.html">Our Splits </a> </li>
+              <li> <a href="./savedItems.html">Your Saved Items </a> </li>
+            </ul>
+    
+          </div>
+          <div id="social-media" class="col col-sm-3 mx-auto">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-google"></i>
+            <i class="bi bi-whatsapp"></i>
+          </div>
+        </div>
+        <div  id= "Newsletter"class="row">
+          <h3>Recruitment Newsletter</h3>
+          <form>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <fieldset class="row mb-3">
+              <legend class="col-form-label col-sm-2 pt-0">Permissions</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Yes, I consent to receive marketing materials related to CCH.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Yes, I consent to received recruitment and general marketing materials related to CCH.
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <div class="row mb-3">
+            </div>
+            <button id="wacky"type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+        <hr>
+  </div>
+</footer>
+
+<!--FOOTER-END-->
+    
+</body>
+
+
+</html>
