@@ -71,11 +71,11 @@ When browsing on the main page (index.html), or on the Marketing page (marketing
 
 The save icon: 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/Jaswiese/capstoneProject20/blob/main/readmeshots/save%20icon.png "save icon")
 
 When the save icon is clicked, the element will be saved to the "saved items page". 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/Jaswiese/capstoneProject20/blob/main/readmeshots/saved%20items.png "Saved items")
 
 These elements can be viewed on the saved items page.
 
@@ -85,7 +85,7 @@ When visiting the Our splits page (oursplits.html) at the bottom of the page you
 
 The comment box:
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/Jaswiese/capstoneProject20/blob/main/readmeshots/comment%20box.png "comment box")
 
 As illustrated in the screen shot above the input fields can be completed and when the submit button is clicked the input field text is displayed below the submit button.
 
@@ -98,13 +98,13 @@ When visiting the oursplits page there are two seperate animation effects to be 
 
 By clicking on the corresponding split in the table, a visualisation proportionate to the split will be displayed to the user.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/Jaswiese/capstoneProject20/blob/main/readmeshots/split%20animation.png "split animation")
 
 2. The click here to animate 
 
 By clicking on the button with the animate text, the user will see a rapid aniation of a box expaning and rotating. 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/Jaswiese/capstoneProject20/blob/main/readmeshots/animate%20button.png "animate button")
 
 
 ## Credits
