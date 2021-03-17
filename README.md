@@ -41,12 +41,14 @@ This is my “CCH recruitment” website created for the capstone project 20. Th
   
   ```
   
-  **Clone the repository using the repository URL 
+  **Clone the repository using the repository URL*** 
   
   ```
   git clone []
   
-  ``
+  ```
+  
+  
   You will now have the files in your chosen directory if you have followed the steps above/ and have access to the respository.
   
   For further hosting steps from the directory please follow a detailed guide on how to setup your live server on a code editor such as VS code:
