@@ -12,10 +12,10 @@ This is my “CCH recruitment” website created for the capstone project 20. Th
 
 * [Installion](https://github.com/Jaswiese/capstoneProject20/blob/main/README.md#installation) 
 * [Usage](https://github.com/Jaswiese/capstoneProject20#usage)
-  * Basic navigation
-  * Saving elements
-  * Adding comments
-  * Animation clicks
+  * [Basic navigation] (https://github.com/Jaswiese/capstoneProject20#basic-navigation)
+  * [Saving elements] (https://github.com/Jaswiese/capstoneProject20#saving-elements)
+  * [Adding comments] (https://github.com/Jaswiese/capstoneProject20#adding-comments)
+  * [Animation clicks] (https://github.com/Jaswiese/capstoneProject20#animation-clicks)
 * [Credits](https://github.com/Jaswiese/capstoneProject20#usage) 
 
 ## Installation
