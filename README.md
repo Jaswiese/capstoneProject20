@@ -22,9 +22,9 @@ This is my “CCH recruitment” website created for the capstone project 20. Th
 ...
 
  ### Prerequisites:
-  Git – installed on your computer. 
-  Github account 
-  CLI 
+  * Git – installed on your computer. 
+  * Github account 
+  * CLI 
   
   #### Steps: 
   
