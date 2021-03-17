@@ -10,13 +10,13 @@ This is my “CCH recruitment” website created for the capstone project 20. Th
 ## Table of contents:
 ...
 
-* Installion 
-* Usage
+* [Installion](https://github.com/Jaswiese/capstoneProject20/blob/main/README.md#installation) 
+* [Usage](https://github.com/Jaswiese/capstoneProject20#usage)
   * Basic navigation
   * Saving elements
   * Adding comments
   * Animation clicks
-* Credits
+* [Credits](https://github.com/Jaswiese/capstoneProject20#usage) 
 
 ## Installation
 ...
