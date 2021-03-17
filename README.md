@@ -110,9 +110,9 @@ By clicking on the button with the animate text, the user will see a rapid aniat
 ## Credits
 ...
 
-Thank you to [CCH] for allowing me to use some of their logos in the creation of this site. 
+Thank you to [CCH](https://www.cch.co.za/) for allowing me to use some of their logos in the creation of this site. 
 
-### Creater:
+### Creator:
 
 
 [Jasper Wiese](http://github.com/jaswiese)
