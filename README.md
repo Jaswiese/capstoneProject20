@@ -28,13 +28,13 @@ This is my “CCH recruitment” website created for the capstone project 20. Th
   
   #### Steps: 
   
-  **navigate to the directory of your choice using CLI** 
+  **Navigate to the directory of your choice using CLI.** 
   
   ```
   cd chosen-directory
   
   ```
-  **using git commands in your CLI initialise the directory as a git repository**
+  **Using git commands in your CLI initialise the directory as a git repository.**
   
   ```
   git init
@@ -59,6 +59,21 @@ This is my “CCH recruitment” website created for the capstone project 20. Th
 
 ## Usage
 ...
+
+#### Basic navigation
+
+This is a basic website with some functionality built in. 
+The pages can be navigated by clicking on the corresponding element with the appropriate name in the navbar (Top) or the footer (Bottom of the page).
+
+#### Saving Elements
+
+
+#### Adding Comments
+
+
+#### Animation Clicks 
+
+
 
 ## Credits
 ...
